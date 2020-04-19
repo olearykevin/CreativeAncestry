@@ -1,0 +1,170 @@
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 5px;
+  font-size: 16px;
+  float: center;
+  text-align: center; /* center checkbox horizontally */
+  vertical-align: middle; /* center checkbox vertically */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.addThread {
+  text-align: center;
+    width: 80%;
+}
+
+.submitThread{
+  text-align: center;
+    width: 20%;
+}
+
+.searchIdeas {
+  text-align: center;
+    width: 5%;
+}
+.ideaID {
+  text-align: center;
+    width: 5%;
+}
+.ideaText {
+  text-align: center;
+    max-width: 20%;
+}
+.ideaOwner {
+  text-align: center;
+    max-width: 20%;
+}
+.ideaTime {
+  text-align: center;
+    max-width: 20%;
+}
+.ideaVotes {
+  text-align: center;
+    width: 5%;
+}
+.voteIdea {
+  text-align: center;
+    width: 5%;
+}
+.addComment {
+  text-align: center;
+    width: 10%;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px;
+  display: block;
+  float: center;
+margin: auto;
+}
+
+h1, h2 {
+  justify-content: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #AAA;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 24px;
+}
+
+.black {
+  color: black;
+}
+
+#balance {
+  color: black;
+}
+
+#body { 
+  margin-top: :5px;
+  margin-left: :10px;
+  margin-right: :10px;
+  padding:0px;
+  width:100%;
+  align-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hint {
+  color: #666;
+}
+
+.table-bordered { 
+    width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.table {
+    float: left;
+    padding: 15px;
+}
+
+.threadOptions {
+  height: 100%;
+  width: 15%;
+  color: #101010;
+  background-color:  #DCDCDC;
+}
+
+.result {
+  height: 15%;
+  width: 85%;
+}
+
+img {
+    width: 20%;
+    height: 100%;
+    object-fit: contain
+}
+.content {
+    width: 85%;
+}
+
+.btn-primary{
+  background-color: #3366FF;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  padding: 5px;
+  display: block;
+  float: right;
+margin: 5px;
+width: 100%;
+}
+
+.btn-primary:hover{
+     background: #1650af;
+}
+
+.logout{
+  background-color: #FFFFFF;
+  color: #3366FF;
+  border-color: #3366FF;
+  padding: 5px;
+  display: block;
+  float: right;
+margin: 5px;
+width: 100%;
+}
